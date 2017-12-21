@@ -19,7 +19,8 @@ Endpoint Response Examples
 
 $ curl http://127.0.0.1:8000/api/v1/roles
 
-```[
+```json
+[
     {
         "ID": 161,
         "Name": "openstack-cinder",
