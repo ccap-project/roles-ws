@@ -248,7 +248,8 @@ $ curl http://127.0.0.1:8000/api/v1/roles
 
 $ curl http://127.0.0.1:8000/api/v1/roles/161/meta/0.0.13
 
-```{
+```json
+{
     "author": "Davide Guerri",
     "categories": [
         "cloud"
@@ -271,7 +272,8 @@ $ curl http://127.0.0.1:8000/api/v1/roles/161/meta/0.0.13
 
 $ curl http://127.0.0.1:8000/api/v1/roles/161/params/1.00
 
-```{
+```json
+{
     "keystone_admin_port": 35357,
     "keystone_auth_type": "password",
     "keystone_hostname": "localhost",
