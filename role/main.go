@@ -10,7 +10,7 @@ import (
 	"github.com/ghodss/yaml"
 	g "github.com/xanzy/go-gitlab"
 
-	"../config"
+	"roles-ws/config"
 )
 
 type GitGroup_t struct {

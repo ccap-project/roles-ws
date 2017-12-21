@@ -3,13 +3,12 @@ package main
 import (
 
   "encoding/json" 
-  //"fmt"
   "net/http"
   "time"
   "github.com/gorilla/mux"
 
-  "./role/"
-  "./config/"
+  "roles-ws/role"
+  "roles-ws/config"
 )
 
 var ( SystemConfig *config.Configuration )
